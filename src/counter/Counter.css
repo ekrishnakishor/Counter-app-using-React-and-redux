@@ -1,0 +1,30 @@
+button {
+  padding: 1vw 2vw;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  background-color: grey;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  gap: 1vw;
+}
+
+input {
+  padding: .5vw 2vw;
+  border-radius: 10px;
+}
+
+.inc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.inc button {
+  background-color: brown;
+}
